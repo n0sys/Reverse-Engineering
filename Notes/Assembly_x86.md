@@ -18,6 +18,13 @@ Examples:
 - a) 
 	- AT&T: ***movl %esp, %ebp***  [move esp to ebp]
 	- Intel: ***mov esp, ebp***  [move ebp to esp]
+- b)
+	- AT&T: comments start with # symbol
+	- Intel: comments start with ; symbol (could change based on the assembler)
+
+## Assembly Programs
+
+
 
 ---
 > Diagrams courtesy of https://github.com/mytechnotalent
