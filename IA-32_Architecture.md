@@ -357,3 +357,6 @@ Notes:
 - Heap memory is slightly slower to be read from and written to
 - Unlike the stack, variables created on the heap are accessible by any function anywhere in the program
 - Heap variables are essentially global in scope
+
+---
+> Diagrams courtesy of https://github.com/mytechnotalent
