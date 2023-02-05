@@ -22,7 +22,6 @@ Examples:
 	- AT&T: comments start with # symbol
 	- Intel: comments start with ; symbol (could change based on the assembler)
 
-## Assembly Programs
 
 
 
