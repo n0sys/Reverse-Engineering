@@ -53,15 +53,15 @@ Instructions:
 			- Places its operand onto the top of the stack in memory
 			- Specifically, push first decrements ESP by 4, then places its operand into the content of the 32-bit location at address [ESP] (decremented and not incremented because the stack grows downwards. See X86_Architecture.Stack)
 		- Syntax:
-			- push <reg32>
-			- push <mem>
-			- push <con32>
+			- push reg32
+			- push mem
+			- push con32
 		- Examples:
 			- push eax ; push the contents of eax onto the stack
-			- push [var] ; push the 4 bytes at address “var” onto the stack
+			- push var ; push the 4 bytes at address “var” onto the stack
 	- pop: 
 		- Semantics: removes the 4-byte data element from the top of the stack into the specified operand (register or memory location)
-		- Syntax:
+		- Syntax: 
 		- Examples:
 	- leal:
 		- Semantics: 
