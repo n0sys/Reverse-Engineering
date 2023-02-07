@@ -359,4 +359,4 @@ Notes:
 - Heap variables are essentially global in scope
 
 ---
-> Diagrams courtesy of https://github.com/mytechnotalent
+> Diagrams are courtesy of https://github.com/mytechnotalent
