@@ -62,7 +62,11 @@ Instructions:
 	- pop: 
 		- Semantics: removes the 4-byte data element from the top of the stack into the specified operand (register or memory location)
 		- Syntax: 
+			- pop reg
+			- pop mem
 		- Examples:
+			- pop edi ; pop the top element of the stack into EDI.
+			- pop \[ebx\] ; pop the top element of the stack into memory at the four bytes starting at location EBX.
 	- leal:
 		- Semantics: 
 			- places the address specified by its first operand into the register specified in the second operand
